@@ -15,6 +15,7 @@ namespace HR.Core.Models
         public DateTime? endDate { get; set; }
         public decimal BasicSalary { get; set; }
         public bool isRenewable { get; set; }
+        public Allaonce Allaonce { get; set; }
 
     }
 }

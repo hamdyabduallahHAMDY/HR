@@ -16,5 +16,7 @@ namespace HR.Core.DTO
         public DateTime? endDate { get; set; }
         public decimal BasicSalary { get; set; }
         public bool isRenewable { get; set; }
+        public AllaonceDTO Allaonce { get; set; }
+
     }
 }

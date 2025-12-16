@@ -29,7 +29,7 @@ namespace HR.Core.Mapping
             CreateMap<LeaveBalance, LeaveBalanceDTO>().ReverseMap();
             CreateMap<LeaveRequest, LeaveRequestDTO>().ReverseMap();
             CreateMap<PayRollDeduction, PayRollDeductionDTO>().ReverseMap();
-            
+            CreateMap<Allaonce, AllaonceDTO>().ReverseMap();
 
                     }
                 }
